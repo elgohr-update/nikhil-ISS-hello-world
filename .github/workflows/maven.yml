@@ -33,7 +33,7 @@ jobs:
       run: ls /home/runner/work/hello-world/hello-world/
 
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: vichnik/docker-image
         username: ${{ secrets.DOCKERHUB_USERNAME }}
